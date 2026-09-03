@@ -763,7 +763,7 @@
       --electric: #9fcdf1;
       --violet: #93a7be;
       --signal: #c6d4e3;
-      --warm: #c6d4e3;
+      --warm: #ffb870;
       --line: rgba(155, 191, 223, .14);
       --line-strong: rgba(185, 218, 245, .28);
     }
@@ -787,17 +787,19 @@
       -webkit-text-fill-color: initial;
       text-shadow: 0 0 16px rgba(167, 214, 245, .08);
     }
-    .eyebrow,
     .capability-key,
     .stack,
     .hero-mini-note,
     .hero-caption,
     .work-state,
-    .work-state.live,
     .book-role,
     .pub-count,
     .book-meta {
       color: #a7bdd2;
+    }
+    .eyebrow,
+    .work-state.live {
+      color: var(--warm);
     }
     .hero-badge,
     .hero-badge:nth-child(2),
