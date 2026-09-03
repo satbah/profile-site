@@ -1,0 +1,24 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_DEPLOY_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H aic.kaz.ac >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Trigger git pull on VPS
+        run: |
+          # The server-side authorized_keys entry for this key is locked
+          # to a forced command ("cd /var/www/pf.kaz.ac && git pull") via
+          # `command=` — whatever we ask for here is ignored server-side,
+          # this connection can never run anything else.
+          ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes kazus@aic.kaz.ac true
