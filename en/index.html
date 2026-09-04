@@ -1424,7 +1424,7 @@
           const p=1/(1.9-z2*.55), depth=(z2+1)/2;
           const px=cx+x1*R*p*1.92, py=cy+y1*R*p*1.92;
           const alpha=.05+depth*depth*.66;
-          ctx.fillStyle=s>.94?`rgba(255,205,145,${alpha*.78})`:`rgba(${120+depth*125},${176+depth*68},255,${alpha})`;
+          ctx.fillStyle=s>.65?`rgba(255,205,145,${alpha*.78})`:`rgba(${120+depth*125},${176+depth*68},255,${alpha})`;
           ctx.beginPath(); ctx.arc(px,py,.45+depth*1.25,0,Math.PI*2); ctx.fill();
         }
         ctx.globalCompositeOperation='source-over';
