@@ -41,12 +41,12 @@ TRANSLATIONS = {
     "MCPサーバーなどを介して、AIクライアントからBLEデバイス、画面、シリアルログ、業務システムを扱えるようにします。":
         "Using MCP servers and similar bridges, let an AI client operate BLE devices, capture the screen, monitor serial logs, or reach into a business system.",
     "AI・LLMを使ったツールを試作する": "Prototype AI / LLM-powered tools",
-    "マルチエージェント、構造化出力、認証・DB・ストリーミングを含む試作まで。クラウドに依存しないオンデバイス推論も扱います。":
-        "From multi-agent systems and structured output to full prototypes with auth, a database, and streaming. On-device inference that doesn't depend on the cloud is also in scope.",
+    "マルチエージェント、構造化出力、認証・DB・ストリーミングを含む試作まで。クラウドへの依存を減らすオンデバイス推論も扱います。":
+        "From multi-agent systems and structured output to full prototypes with auth, a database, and streaming. On-device inference that reduces cloud dependence is also in scope.",
     "センサー・マイコン・IoTの実機をつくる": "Build sensor / microcontroller / IoT hardware",
     "複数マイコンの協調、無線通信、省電力、クラウド連携、スマートフォンアプリまで。実機動作と引き継ぎ文書を成果物にします。":
         "Multi-MCU coordination, wireless communication, low-power design, cloud integration, and companion phone apps. Delivered as working hardware plus handoff documentation.",
-    "動かない技術・性能問題の原因を調べる": "Diagnose why something doesn't work, or runs slowly",
+    "動かない技術・性能問題を切り分ける": "Isolate why something doesn't work, or runs slowly",
     "ライブラリのソース、OS設定、通信、ハードウェアの境界まで含めて、計測と仮説検証で原因を切り分けます。":
         "I isolate root causes by measuring and testing hypotheses — reading library source, checking OS settings, tracing communication, right down to the hardware boundary.",
 
@@ -108,8 +108,8 @@ TRANSLATIONS = {
     "USB帯域、センサー読み出し、ウォームアップ、ドライバ設定、レンズ汚れの仮説を個別に検証。":
         "Tested each hypothesis separately: USB bandwidth, sensor readout, warm-up time, driver settings, and a dirty lens.",
     "結論": "Conclusion",
-    "GPUは能力の1/22しか使われておらず、必要なのはモデル最適化ではなく照明環境の改善だった。":
-        "The GPU was using only 1/22 of its capacity — the fix needed wasn't model optimization, it was better lighting.",
+    "GPUは推論能力の1/22しか使われておらず、必要なのはモデル最適化ではなく照明環境の改善だった。":
+        "The GPU was using only 1/22 of its inference capacity — the fix needed wasn't model optimization, it was better lighting.",
     "サーボの不調はOS設定だった": "The servo problem was an OS setting",
     "配線やコードだけでなくPWMクロック管理まで調べて解消。": "Traced the issue past the wiring and code, into PWM clock management, and resolved it there.",
     "Raspberry Piにつないだサーボが指定角度どおりに動かない。": "A servo connected to a Raspberry Pi wasn't moving to the commanded angle.",
@@ -125,7 +125,7 @@ TRANSLATIONS = {
 
     # --- Publications section ---
     "タイトル": "titles",
-    "法人名義で確認": "Confirmed under the company's name",
+    "技術書の監訳・監修・編集（法人名義）": "Technical book translation, supervision, and editing (under the company's name)",
     "1990年代後半から2000年代初頭、PC・プログラミング関連書籍の監訳・監修・編集・執筆に携わりました。海外の複雑な技術を、日本の技術者が使える形へ翻訳・編集した経験は、現在の設計と開発にもつながっています。":
         "From the late 1990s to the early 2000s, I worked on translation supervision, technical supervision, editing, and writing for PC and programming books. Translating and editing complex technology from abroad into something Japanese engineers could actually use still shapes how I design and build today.",
     "このほか、個人名義で『Windows 95 バイブル』などの監修・監訳実績があります。": "In addition, under my own name, I supervised or translated titles including \"Windows 95 Bible.\"",
