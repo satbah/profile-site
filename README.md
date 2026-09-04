@@ -22,6 +22,11 @@ live site are both generated/deployed *from* it.
 
 ## Updating content
 
+0. `git pull` first — if this repo was pushed to from another machine (or
+   edited directly on GitHub) since your last pull, you want to know
+   *before* you start editing, not from a `git push` rejection after.
+   `./preview.sh` fetches and warns if you're behind, as a reminder each
+   time you preview.
 1. Edit `index.html` directly (the Japanese text).
 2. If you added/changed any visible text, add its translation to
    `translate_map.py`. `build_en.py` will tell you exactly what's missing
