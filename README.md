@@ -16,9 +16,18 @@ live site are both generated/deployed *from* it.
 | File | What it is |
 |---|---|
 | `index.html` | **The source.** All Japanese body text — hero copy, the "what I can help with" cards, selected work, debug case studies, publications list, about, contact. Edit this directly. |
+| `assets/*.webp` | Images, as normal files (not base64). Referenced from `index.html` as `src="assets/name.webp"`. |
 | `../profile-updater/timeline_data.yaml` | The timeline entries (separate source, own repo — see its README). |
 | `translate_map.py` | Japanese → English dictionary. Every translatable string in `index.html` must have an entry here, or `build_en.py` refuses to build. |
 | `en/index.html` | **Generated.** Built by `build_en.py` from `index.html` + `translate_map.py`. Never hand-edit — it gets overwritten. |
+
+`index.html` used to embed all 13 images as base64 data: URIs — ~900KB on
+a handful of near-unreadable single lines, painful to edit in a plain
+text editor. `extract_images.py` pulled them out into `assets/` once;
+`index.html` is now ~85KB of actual markup. If you're ever adding a new
+image, save it to `assets/` yourself and reference it with a normal
+relative `src` — no need to re-run `extract_images.py` (it's there for
+reference / in case a future edit reintroduces an embedded image).
 
 ## Updating content
 
