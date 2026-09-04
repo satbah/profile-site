@@ -60,12 +60,12 @@ TRANSLATIONS = {
     "実装範囲": "Implementation scope",
     "BLEのread/write/notify、画面・ウィンドウ取得、複数シリアルログの監視・要約、Web UI、stdio/HTTPの両トランスポートを実装。":
         "Implemented BLE read/write/notify, screen and window capture, multi-device serial log monitoring and summarization, a web UI, and both stdio and HTTP transports.",
-    "実装・回帰テスト済み": "Implemented, with regression tests",
-    "AI駆動3Dキャラクター生成": "AI-driven 3D character generation",
-    "LLMには検証可能な骨格データだけを生成させ、メッシュ生成とリギングは決定的アルゴリズムで処理する設計。":
-        "The LLM only generates verifiable skeleton data; mesh generation and rigging are handled by deterministic algorithms.",
-    "VRM 1.0検証、BVHモーションのリターゲット、Blender連携、three.jsビューア、生成→検証→フィードバックのループとpytestを実装。":
-        "Implemented VRM 1.0 validation, BVH motion retargeting, Blender integration, a three.js viewer, and a generate → validate → feedback loop with pytest coverage.",
+    "● 日常的に使用中": "● In daily use",
+    "AIエージェント向けTTS×リップシンク基盤": "TTS x lip-sync framework for AI agents",
+    "Claude CodeなどのAI開発支援ツールに、MCP経由で声と3Dアバターの姿を与える。開発作業の進捗をTTS音声で読み上げる用途で日常的に使用。":
+        "Gives AI dev-support tools like Claude Code a voice and a 3D avatar body, via MCP. Used daily to have TTS read out the progress of dev work.",
+    "Tauri内蔵のMCPサーバー（音声一覧・発話・VRMAアニメーション再生など）、Azure Speech ServiceによるTTS、VRMアバターのリップシンク、Windows/macOS/Linux対応。":
+        "An MCP server built into the Tauri app (list voices, speak, play VRMA animations, and more), TTS via Azure Speech Service, VRM avatar lip-sync, and Windows/macOS/Linux support.",
     "実機でEnd-to-End通信を確認": "End-to-end communication verified on real hardware",
     "Bluetooth PAN・低消費電力IoT通信": "Bluetooth PAN / low-power IoT communication",
     "標準スタックにないBNEP・PANを実装し、スマートフォン経由のインターネット接続を確立。周期補正と電流測定方法まで設計。":
@@ -79,15 +79,15 @@ TRANSLATIONS = {
     "GPU上のゼロコピーエンコード、UDP映像配信、入力注入、OpenXRレンダリング、6DoF操作、ハンドトラッキングまでを実装。":
         "Implemented zero-copy GPU encoding, UDP video delivery, input injection, OpenXR rendering, 6DoF manipulation, and hand tracking.",
     "● 本番稼働中": "● In production",
-    "メッセージングアプリ上のAIボット": "AI bot on a messaging app",
+    "LINE用AIチャットボット": "AI chatbot for LINE",
     "自前サーバーで常時稼働。複数LLMの切替、Web検索・画像生成、管理画面を備え、実運用で起きた停止や表示崩れにも対応。":
         "Runs continuously on a self-hosted server. Supports switching between multiple LLMs, web search and image generation, and an admin panel — hardened against stalls and rendering glitches hit in real operation.",
     "Webhook、認証済み管理画面、OpenAI・xAI・Googleの切替、グループ内での選択的応答、Flex Messageとフォールバックを実装。":
         "Implemented the webhook, an authenticated admin panel, switching between OpenAI/xAI/Google, selective replies in group chats, and Flex Message rendering with a plain-text fallback.",
     "納品済み（受託・社名非公開）": "Delivered (client project, company name withheld)",
-    "産業ライン向け卓上実証設備": "Tabletop industrial-line demonstrator",
-    "搬送、加工、組立、検査、良否判定、仕分けまでを卓上で再現する実証設備。複数マイコンの役割分担と画像・色判定を統合。":
-        "A tabletop rig reproducing conveyance, processing, assembly, inspection, pass/fail judgment, and sorting. Integrates role-split coordination across multiple MCUs with image- and color-based judgment.",
+    "製造管理システムのデモ用生産ライン模型": "Production-line model for demoing a manufacturing management system",
+    "製造管理システムのデモンストレーション用に、搬送・加工・組立・検査・良否判定・仕分けを卓上で再現した生産ライン模型。複数マイコンの役割分担と画像・色判定を統合。":
+        "A tabletop production-line model built to demonstrate a manufacturing management system — reproducing conveyance, processing, assembly, inspection, pass/fail judgment, and sorting. Integrates role-split coordination across multiple MCUs with image- and color-based judgment.",
     "モーターPWM、PLCリレー通信、光電センサー、カメラ、カラーセンサー、サーボ制御、共通ライブラリ、引き継ぎ文書まで整備。":
         "Built out motor PWM control, PLC relay communication, photoelectric sensors, camera and color-sensor integration, servo control, a shared library, and handoff documentation.",
 
@@ -293,10 +293,10 @@ TRANSLATIONS = {
 
 ALT_TRANSLATIONS = {
     "MCPサーバー群のビジュアル": "Illustration of the MCP server suite",
-    "AI駆動3Dキャラクター生成のビジュアル": "Illustration of AI-driven 3D character generation",
+    "AIエージェント向けTTS×リップシンクアバターのビジュアル": "Illustration of the TTS x lip-sync avatar framework for AI agents",
     "Bluetooth PAN・低消費電力IoT通信のビジュアル": "Illustration of Bluetooth PAN / low-power IoT communication",
     "VRヘッドセットからのPC操作のビジュアル": "Illustration of PC control from a VR headset",
-    "メッセージングアプリ上のAIボットのビジュアル": "Illustration of an AI bot on a messaging app",
-    "産業ライン向け卓上実証設備のビジュアル": "Illustration of the tabletop industrial-line demonstrator",
+    "LINE用AIチャットボットのビジュアル": "Illustration of an AI chatbot for LINE",
+    "製造管理システムのデモ用生産ライン模型のビジュアル": "Illustration of the production-line model for demoing a manufacturing management system",
     "技術書・翻訳・編集実績を表す出版ビジュアル": "Illustration representing technical book translation and editing work",
 }
