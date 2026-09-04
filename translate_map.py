@@ -53,7 +53,7 @@ TRANSLATIONS = {
     # --- WORK section ---
     "構想・試作・実機検証・本番運用を区別し、到達点を明記しています。公開できない受託案件は、社名と機密情報を伏せています。":
         "Each entry states clearly whether it's a concept, a prototype, hardware-verified, or in production. For client work that can't be disclosed, the company name and confidential details are withheld.",
-    "3件開発／うち1件はパッケージ配布済み": "3 built — one already published as a package",
+    "AIを物理世界と接続させるMCPサーバーを用途毎に開発": "Building MCP servers, one per use case, to connect AI to the physical world",
     "MCPサーバー群": "MCP server suite",
     "AIクライアントからBLE機器、画面キャプチャ、複数デバイスのシリアルログ監視を呼び出せるようにするI/Oアダプタ。":
         "I/O adapters that let an AI client reach BLE devices, capture the screen, or monitor serial logs across multiple devices.",
