@@ -270,6 +270,13 @@ TRANSLATIONS = {
     "植物・草食動物・肉食動物からなる3D生態系シミュレーション（土壌栄養循環・水・捕食関係）": "A 3D ecosystem simulation of plants, herbivores, and carnivores (soil nutrient cycling, water, predation)",
     "戦争・海運チョークポイント・金価格・暗号資産・為替データを組み合わせた為替レート予測プロトタイプ（現時点で実売買は未実装）":
         "An FX-rate prediction prototype combining war, shipping-chokepoint, gold-price, crypto, and exchange-rate data (does not execute real trades yet)",
+    "fx-predictor（続報）": "fx-predictor (update)",
+    "方向性アラート・利益優先・積極配分など複数の資産配分戦略をshadow口座で並行前向き検証（実注文機能はまだ無効）":
+        "Forward-testing several allocation strategies (directional alert, profit-first, aggressive allocation) in parallel on shadow accounts (real order execution is still disabled)",
+    "よりそいノート": "Yorisoi Note",
+    "LM Studioで推論する会話非保存のメンタルヘルス対話プロトタイプ。Flutter製ボイスクライアントでTTS/STT対話も実装。":
+        "A mental-health conversation prototype that runs inference on LM Studio and doesn't persist conversations. Also includes a Flutter voice client with TTS/STT.",
+    "Next.js（カスタムWebSocketサーバー） / TypeScript / Flutter": "Next.js (custom WebSocket server) / TypeScript / Flutter",
 
     # --- Contact section ---
     "研究・構想の段階から": "From the research-and-concept stage",
