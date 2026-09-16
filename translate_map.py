@@ -219,7 +219,7 @@ TRANSLATIONS = {
     "OAuth2認証+PIN暗号化によるセキュアURL共有システム": "A secure URL-sharing system with OAuth2 auth and PIN encryption",
     "VS Code拡張機能としてのAIコーディング支援・vibe-coding用チャットツール試作": "Prototyping an AI coding-assist / vibe-coding chat tool as a VS Code extension",
     "自律水中機（AUV）向けのBlenderベースチェックツール": "A Blender-based check tool for an autonomous underwater vehicle (AUV)",
-    "組み込みボード開発（Mira Station）": "Embedded board bring-up (Mira Station)",
+    "組み込みボード開発": "Embedded board bring-up",
     "nRF5340/nRF7002カスタムボードのデバイスツリー調整、WiFi接続不良の原因特定": "Device-tree tuning for an nRF5340/nRF7002 custom board; tracked down the cause of a WiFi connectivity fault",
     "2026年": "2026",
     "VRM 3Dエージェントが伴走するADHD支援ボディダブリングアプリ": "An ADHD body-doubling app with a companion VRM 3D agent",
@@ -277,6 +277,14 @@ TRANSLATIONS = {
     "LM Studioで推論する会話非保存のメンタルヘルス対話プロトタイプ。Flutter製ボイスクライアントでTTS/STT対話も実装。":
         "A mental-health conversation prototype that runs inference on LM Studio and doesn't persist conversations. Also includes a Flutter voice client with TTS/STT.",
     "Next.js（カスタムWebSocketサーバー） / TypeScript / Flutter": "Next.js (custom WebSocket server) / TypeScript / Flutter",
+    "AIエージェントがSSH経由でリモートLinuxサーバーを操作するMCPサーバー。sudo実行はローカルGUIで人間が承認するまでブロックする安全設計":
+        "An MCP server that lets an AI agent operate remote Linux servers over SSH. Any sudo command blocks until a human approves it via a local GUI dialog — a safety design.",
+    "mTLS認証付きHTTPS/MQTTS IoTテレメトリ収集サーバー。デバイス証明書によるmTLS認証とMongoDB Time Seriesへの保存、Webビューアを実装":
+        "An mTLS-authenticated HTTPS/MQTTS IoT telemetry ingestion server. Implements mTLS device-certificate authentication, storage in a MongoDB Time Series collection, and a web viewer.",
+    "Wio BG770Aセルラーボード向けテストファームウェア。BME280/GPS/磁気スイッチ等のGroveセンサー統合、mTLS MQTTS通信、SORACOM Harvestへのデータ送信を実装":
+        "Test firmware for the Wio BG770A cellular board. Integrates Grove sensors (BME280, GPS, magnetic switch, etc.), mTLS MQTTS communication, and data upload to SORACOM Harvest.",
+    "GitHub活動をスキャンし、外部向けプロフィール（この年表・ポートフォリオ）の更新候補を人間レビュー前提でドラフトする自動化パイプライン":
+        "An automation pipeline that scans GitHub activity and drafts update candidates for this external-facing profile (this timeline and portfolio), always subject to human review before anything is applied.",
 
     # --- Contact section ---
     "研究・構想の段階から": "From the research-and-concept stage",
